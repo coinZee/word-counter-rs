@@ -17,7 +17,7 @@ fn count_word(s: &str) -> usize{
 fn main(){
     let mut s = String::from("Hello    world!    ls  ");
     let mut word_count: usize = 0;
-    for _ in [1..100]{
+    for _ in 1..100{
         word_count = count_word(&s);
     }
     println!("{word_count}");
